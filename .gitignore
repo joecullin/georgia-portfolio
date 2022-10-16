@@ -1,3 +1,6 @@
 # vi temp files
 .*.swp
 
+# macos files
+.DS_Store
+
