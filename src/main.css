@@ -46,13 +46,26 @@ div.main-content
     clear: both;
 }
 
+h1
+{
+    font-family: 'Noto Serif', serif;
+}
+
+h2
+{
+    color: #8d8d8d;
+    font-size: 1.2rem;
+}
+
+/****** main page ******/
+
 div.cover-image
 {
     position: relative;
 }
 .cover-image:hover
 {
-    background-color: red;
+    background-color: gray;
     opacity: 0.5;
 }
 div.cover-image-title
@@ -69,5 +82,31 @@ div.cover-image-subtitle
 {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+}
+
+/****** "work" pages ******/
+
+div.gallery-image
+{
+    position: relative;
+}
+div.gallery-image img
+{
+    height: 40vh;
+}
+.gallery-image:hover
+{
+    background-color: gray;
+    opacity: 0.5;
+}
+div.gallery-image-play-button
+{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+div.gallery-image-play-button img
+{
+    height: 10vh;
 }
 
