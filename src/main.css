@@ -63,6 +63,10 @@ div.cover-image
 {
     position: relative;
 }
+div.cover-image a
+{
+    color: #eaeaea;
+}
 .cover-image:hover
 {
     background-color: gray;
