@@ -67,7 +67,7 @@ div.cover-image a
 {
     color: #eaeaea;
 }
-.cover-image:hover
+.cover-image:hover img.img-fluid
 {
     background-color: gray;
     opacity: 0.5;
