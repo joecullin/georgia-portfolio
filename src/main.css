@@ -56,6 +56,14 @@ h2
     color: #8d8d8d;
     font-size: 1.2rem;
 }
+h2 a
+{
+    color: #8d8d8d;
+}
+h2 a:hover
+{
+    color: #afafaf;
+}
 
 /****** main page ******/
 
@@ -124,5 +132,27 @@ div.gallery-image-play-button
 div.gallery-image-play-button img
 {
     height: 10vh;
+}
+
+/****** resume page ******/
+
+div.resume-section
+{
+    padding-top: 2rem;
+}
+span.resume-emphasis
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: .05em;
+}
+span.resume-dates
+{
+    font-size: .9em;
+}
+div.resume-experience
+{
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
