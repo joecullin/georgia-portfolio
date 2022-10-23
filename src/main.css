@@ -98,6 +98,18 @@ div.gallery-image img
 {
     height: 40vh;
 }
+div.gallery-image-row-of-4 img
+{
+    height: 30vh;
+}
+div.gallery-image-row-of-2 img
+{
+    height: 60vh;
+}
+div.gallery-image-row-of-1 img
+{
+    height: 80vh;
+}
 .gallery-image:hover
 {
     background-color: gray;
