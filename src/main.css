@@ -89,6 +89,7 @@ div.cover-image-title
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Noto Serif', serif;
+    text-shadow: 1px 1px 5px black;
 }
 div.cover-image-subtitle
 {
